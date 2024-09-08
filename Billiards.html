@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Billiards</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body style="background-image:url('images/billiards.jpg')">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="News.html">News</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Billiards
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="Billiards.html">Billiards Home</a>
+            <a class="dropdown-item" href="BilliardsFixtures.html">Fixtures</a>
+            <a class="dropdown-item" href="BilliardsTable.html">League Table</a>
+            <a class="dropdown-item" href="Billiards_Indiv.html">Individual Competition</a>
+            <a class="dropdown-item" href="BilliardStats.html">Player Statistics</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item">
+              <b>Team Competitions</b>
+            </a>
+            <a class="dropdown-item" href="Arthur_Plunkett.html">Arthur Plunkett</a>
+            <a class="dropdown-item" href="Eric_Mills.html">Eric Mills</a>
+            <a class="dropdown-item" href="Norman_Goodall.html">Norman Goodall</a>
+            <a class="dropdown-item" href="Ray_Bowskill.html">Ray Bowskill</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- end of navigation -->
+
+  <div class='main'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-sm-12'>
+          <h1 style="text-align:center; color:yellow; font-size:3vw"> Wirral Billiards League</h1>
+        </div>
+        <div class='col-sm-12'>
+          <h1 style="text-align:center; color:black; font-size:2vw"> Billiards</h1>
+        </div>
+        <div class='col-sm-12'>
+          <br>
+        </div>
+        <div class='col-sm-6'>
+          <a href="BilliardsFixtures.html">
+            <p style="text-align:center;">
+              <button id="btn1" class="w3-button w3-border w3-xlarge w3-green w3-text-black">Fixtures</button>
+            </p>
+          </a>
+        </div>
+        <div class='col-sm-6'>
+          <a href="BilliardsTable.html">
+            <p style="text-align:center;">
+              <button id="btn2" class="w3-button w3-border w3-xlarge w3-green w3-text-black">League Table</button>
+            </p>
+          </a>
+        </div>
+        <div class='col-sm-12'>
+          <p style="text-align:center; color:red; font-size: 2vw">
+            <b>Individual Competition</b>
+          </p>
+        </div>
+        <div class='col-sm-12'>
+          <a href="Billiards_Indiv.html">
+            <p style="text-align:center;">
+              <button id="btn2" class="w3-button w3-border w3-xlarge w3-green w3-text-black">Individual</button>
+            </p>
+          </a>
+        </div>
+        <div class='col-sm-12'>
+          <p style="text-align:center; color:red; font-size: 2vw">
+            <b>Billiards Statistics</b>
+          </p>
+        </div>
+        <div class='col-sm-12'>
+          <a href="BilliardStats.html">
+            <p style="text-align:center;">
+              <button id="btn2" class="w3-button w3-border w3-xlarge w3-green w3-text-black">Player Stats</button>
+            </p>
+          </a>
+        </div>
+        <div class='col-sm-12'>
+          <p style="text-align:center; color:red; font-size: 2vw">
+            <b>Team Competitions</b>
+          </p>
+        </div>
+        <div class='col-sm-3'>
+          <a href="Arthur_Plunkett.html">
+            <p style="text-align:center;">
+              <button id="btn2" class="w3-button w3-border w3-xlarge w3-green w3-text-black">Arthur Plunkett</button>
+            </p>
+          </a>
+        </div>
+        <div class='col-sm-3'>
+          <a href="Eric_Mills.html">
+            <p style="text-align:center;">
+              <button id="btn2" class="w3-button w3-border w3-xlarge w3-green w3-text-black">Eric Mills</button>
+            </p>
+          </a>
+        </div>
+        <div class='col-sm-3'>
+          <a href="Norman_Goodall.html">
+            <p style="text-align:center;">
+              <button id="btn2" class="w3-button w3-border w3-xlarge w3-green w3-text-black">Norman Goodall</button>
+            </p>
+          </a>
+        </div>
+        <div class='col-sm-3'>
+          <a href="Ray_Bowskill.html">
+            <p style="text-align:center;">
+              <button id="btn2" class="w3-button w3-border w3-xlarge w3-green w3-text-black">Ray Bowskill_Bowl</button>
+            </p>
+          </a>
+        </div>
+        <div class='col-sm-12'>
+          <a href="BilliardsHonours.html">
+            <p style="text-align:center;">
+              <button id="btn2" class="w3-button w3-border w3-xlarge w3-green w3-text-black">Honours Board</button>
+            </p>
+          </a>
+        </div>
+
+        <!-- <div class='col-sm-12'>
+          <h2 style="text-align:center; color:black; font-size: 4vw"> Registered Players 2018 - 2019</h2>
+        </div>
+
+        <div class="container" style="text-align:center; color: black">
+          <table class="table table-bordered table-dark table-hover">
+            <thead>
+              <tr>
+                <th>Team</th>
+                <th>Player</th>
+                <th>Handicap</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>EASTHAM HOMEGUARD</td>
+                <td>M.BENNETT</td>
+                <td>-22</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>T.COOKE</td>
+                <td>-78</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>J.SQUIRES</td>
+                <td>58</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>P.FORMSTON</td>
+                <td>18</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>N.STOKOE</td>
+                <td>50</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>P.WOOLLAND</td>
+                <td>-86</td>
+              </tr>
+              <tr>
+                <td>GREAT MEOLS</td>
+                <td>B.CARROLL</td>
+                <td>-50</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>R.FARRELL</td>
+                <td>66</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>K.KELLY</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>R.MACSHANE</td>
+                <td>58</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>G.PIPE</td>
+                <td>18</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>H.SMITH</td>
+                <td>14</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>M.SPICER</td>
+                <td>18</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>R.TINKLER</td>
+                <td>86</td>
+              </tr>
+              <tr>
+                <td>OXTON CONS A</td>
+                <td>S.BRADSHAW</td>
+                <td>-102</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>A.D.BROWN</td>
+                <td>-14</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>E.DUGGAN</td>
+                <td>-138</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>S.MCDONNELL</td>
+                <td>-54</td>
+              </tr>
+              <tr>
+                <td>OXTON CONS B</td>
+                <td>M.DOWD</td>
+                <td>-2</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>R.MEADOWS</td>
+                <td>-110</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>G.HITCHMOUGH</td>
+                <td>46</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>K.MORRIS</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>OXTON CONS RESERVES</td>
+                <td>T.MCADAM</td>
+                <td>-2</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>G.MYDDELTON</td>
+                <td>18</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>I.TAYLOR</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>P.GIBSON</td>
+                <td>12</td>
+              </tr>
+              <tr>
+                <td>RAFA</td>
+                <td>P.BRENNAN</td>
+                <td>18</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>K.PALMER</td>
+                <td>62</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>N.PALMER</td>
+                <td>-18</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>M.ROUTLEDGE MBE</td>
+                <td>-38</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>B.RYAN</td>
+                <td>-2</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>B.COLLINS</td>
+                <td>58</td>
+              </tr>
+              <tr>
+                <td>LYCEUM</td>
+                <td>C.BENNETT</td>
+                <td>-10</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>H.FERNS</td>
+                <td>46</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>K.FORMSTON</td>
+                <td>-6</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>S.YATES</td>
+                <td>-54</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>M.MANNING</td>
+                <td>18</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>S.FORMSTON</td>
+                <td>26</td>
+              </tr>
+              <tr>
+                <td>THE OLD MANOR</td>
+                <td>W.L.SMITH</td>
+                <td>74</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>P.O'BRIEN</td>
+                <td>74</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>J.MACDONALD</td>
+                <td>86</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>C.STOCKS</td>
+                <td>82</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>G.ECCLESTON</td>
+                <td>18</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>F.BORG</td>
+                <td>22</td>
+              </tr>
+              <tr>
+                <td>TIXALLS</td>
+                <td>E.OSBORNE</td>
+                <td>54</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>R.EVANS</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>D.SHEPPARD</td>
+                <td>46</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>R.HAYES</td>
+                <td>-56</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>P.SHEPPARD</td>
+                <td>38</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>J.WOODCOCK</td>
+                <td>50</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>M.DAUGHERTY</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>J.CUFFE</td>
+                <td>78</td>
+              </tr>
+            </tbody>
+          </table>
+        </div> -->
+      </div>
+    </div>
+    <!-- Button sizes: w3-tiny w3-small w3-medium w3-large w3-xlarge w3-xxlarge w3-xxxlarge w3-jumbo -->
+  </div>
+
+  <!-- <div class='Ads'>
+    <div class='row'>
+      <div class='col-sm-12'>
+        <h1 style="text-align:center; color:yellow; font-size: 3vw">
+          <b>Wirral Snooker League are proudly sponsored by</b>
+        </h1>
+      </div>
+      <div class='col-sm-12'>
+        <br>
+      </div>
+
+      <div class='col-sm-12' style="text-align:center" ;>
+        <a href="http://www.ccrsystems.co.uk">
+          <div>
+            <img src="images/CRC.jpg" width="480" height="43">
+          </div>
+        </a>
+        <a href="http://www.ccrsystems.co.uk"></a>
+      </div>
+
+      <div class='col-sm-12'>
+        <br>
+      </div>
+
+      <div class='col-sm-4'>
+        <p style="text-align:center; color:black; font-size: 2vw">
+          <b>CALL NOW : 0151 644 8296</b>
+        </p>
+      </div>
+
+      <div class='col-sm-5'>
+        <p style="text-align:center; color: black; font-size: 2vw">
+          <a href="mailto:epos@ccrsystems.co.uk" target="_blank">
+            <b>EMAIL epos@ccrsystems.co.uk</b>
+          </a>
+        </p>
+      </div>
+
+      <div class='col-sm-3'>
+        <p style="text-align:center; color: black; font-size: 2vw">
+          <a href="http://www.ccrsystems.co.uk" target="_blank">
+            <b>or visit Website</b>
+          </a>
+        </p>
+      </div>
+
+      <div class='col-sm-3'>
+        <br>
+      </div>
+
+      <div class='col-sm-9'>
+        <a href="http://www.lanestrophies.co.uk">
+          <div>
+            <img src="images/Lanes.jpg" width="360" height="108">
+          </div>
+        </a>
+        <a href="http://www.lanestrophies.co.uk"></a>
+      </div>
+
+      <div class='col-sm-12'>
+        <br>
+      </div>
+
+      <div class='col-sm-3'>
+        <br>
+      </div>
+
+      <div class='col-sm-9'>
+        <a href="http://www.alliancesnooker.co.uk">
+          <div>
+            <img src="images/Alliance.jpg" width="360" height="120">
+          </div>
+        </a>
+        <a href="http://www.alliance snooker.co.uk"></a>
+      </div>
+
+      <div class='col-sm-12'>
+        <br>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</body>
+
+
+<!-- Sandwich from: © CookieMonsterf | <a href="http://www.dreamstime.com/">Dreamstime Stock Photos</a> & <a href="http://www.stockfreeimages.com/">Stock Free Images</a> -->
+
+</html>
