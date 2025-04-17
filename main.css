@@ -21,6 +21,16 @@ h5 {
     font-weight: bold;
     text-decoration: underline;
 }
+center {
+    text-align: center;
+}
+left {
+    text-align: left;
+}
+image {
+    width: 364px;
+    height: 219px;
+}
 table {
     text-align: center;
 }
